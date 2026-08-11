@@ -195,7 +195,7 @@ User Opens Control Page
 
 ---
 
-## 🧪 Wokwi Simulation
+##  Wokwi Simulation
 
 The circuit and control logic were first tested using **Wokwi** before implementation on the physical ESP32.
 
@@ -223,15 +223,9 @@ After simulation, the circuit was implemented using the physical ESP32 board, se
 
 ---
 
-## 🎥 Demo
+##  Hardware Demo
 
-### 💻 Wokwi Simulation
-
-[▶️ View Wokwi Simulation Demo](demos/wokwi-demo.mp4)
-
-### 🔧 Hardware Demo
-
-[▶️ View Hardware Implementation Demo](demos/hardware-demo.mp4)
+[▶️ View Hardware Implementation Demo](demo/hardware-demo.mp4)
 
 ---
 
@@ -249,8 +243,7 @@ esp32-web-servo-control/
 │   ├── wokwi-simulation.png
 │   └── hardware-implementation.jpg
 │
-└── 🎥 demos/
-    ├── wokwi-demo.mp4
+└── 🎥 demo/
     └── hardware-demo.mp4
 ```
 
@@ -269,19 +262,6 @@ The program handles:
 - OPEN/CLOSE HTTP requests
 - Servo positioning
 - LED status control
-
----
-
-## ✅ Results
-
-The completed system successfully demonstrates:
-
-✔ ESP32 operation as a Wi-Fi Access Point  
-✔ Browser-based servo control  
-✔ OPEN and CLOSE gate positions  
-✔ LED-based state indication  
-✔ Local control without Internet access  
-✔ Simulation and physical implementation
 
 ---
 
